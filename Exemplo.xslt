@@ -9,7 +9,7 @@
     <xsl:variable name="statusmapping">
         <xsl:choose>
             <xsl:when test="$status='open'">EM ATENDIMENTO</xsl:when>
-            <xsl:when test="$status='closed sucessful'">ENCERRADO</xsl:when>
+            <xsl:when test="$status='closed successful'">ENCERRADO</xsl:when>
             <xsl:otherwise>ABERTO</xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
